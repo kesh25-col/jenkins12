@@ -13,6 +13,7 @@ stages {
             '''
         }
     }
+
     stage('Test') {
         steps {
             echo "Testing.."
@@ -21,6 +22,7 @@ stages {
             '''
         }
     }
+
     stage('Deliver') {
         steps {
             echo 'Deliver....'
@@ -30,3 +32,4 @@ stages {
         }
     }
 }
+
